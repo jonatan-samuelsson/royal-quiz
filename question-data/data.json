@@ -1,0 +1,165 @@
+{
+    "rulers": [ 
+        {
+            "no": 1,
+            "name": "Gustav Vasa",
+            "year_start": "1523",
+            "year_end": "1560",
+            "image": ""
+        },
+        {
+            "no": 2,
+            "name": "Erik XIV",
+            "year_start": "1560",
+            "year_end": "1568",
+            "image": ""
+        },
+        {
+            "no": 3,
+            "name": "Johan III",
+            "year_start": "1568",
+            "year_end": "1592",
+            "image": ""
+        },
+        {
+            "no": 4,
+            "name": "Sigismund",
+            "year_start": "1592",
+            "year_end": "1599",
+            "image": ""
+        },
+        {
+            "no": 5,
+            "name": "Karl IX",
+            "year_start": "1604",
+            "year_end": "1611",
+            "image": ""
+        },
+        {
+            "no": 6,
+            "name": "Gustav II Adolf",
+            "year_start": "1611",
+            "year_end": "1632",
+            "image": ""
+        },
+        {
+            "no": 7,
+            "name": "Kristina",
+            "year_start": "1632",
+            "year_end": "1654",
+            "image": ""
+        },
+        {
+            "no": 8,
+            "name": "Karl X Gustav",
+            "year_start": "1654",
+            "year_end": "1660",
+            "image": ""
+        },
+        {
+            "no": 9,
+            "name": "Karl XI",
+            "year_start": "1660",
+            "year_end": "1697",
+            "image": ""
+        },
+        {
+            "no": 10,
+            "name": "Karl XII",
+            "year_start": "1697",
+            "year_end": "1718",
+            "image": ""
+        },
+        {
+            "no": 11,
+            "name": "Ulrika Eleonora",
+            "year_start": "1719",
+            "year_end": "1720",
+            "image": ""
+        },
+        {
+            "no": 12,
+            "name": "Fredrik I",
+            "year_start": "1720",
+            "year_end": "1751",
+            "image": ""
+        },
+        {
+            "no": 13,
+            "name": "Adolf Fredrik",
+            "year_start": "1751",
+            "year_end": "1771",
+            "image": ""
+        },
+        {
+            "no": 14,
+            "name": "Gustav III",
+            "year_start": "1771",
+            "year_end": "1792",
+            "image": ""
+        },
+        {
+            "no": 15,
+            "name": "Gustav IV Adolf",
+            "year_start": "1792",
+            "year_end": "1809",
+            "image": ""
+        },
+        {
+            "no": 16,
+            "name": "Karl XIII",
+            "year_start": "1809",
+            "year_end": "1818",
+            "image": ""
+        },
+        {
+            "no": 17,
+            "name": "Karl XIV Johan",
+            "year_start": "1818",
+            "year_end": "1844",
+            "image": ""
+        },
+        {
+            "no": 18,
+            "name": "Oscar I",
+            "year_start": "1844",
+            "year_end": "1859",
+            "image": ""
+        },
+        {
+            "no": 19,
+            "name": "Karl XV",
+            "year_start": "1859",
+            "year_end": "1872",
+            "image": ""
+        },
+        {
+            "no": 20,
+            "name": "Oscar II",
+            "year_start": "1872",
+            "year_end": "1907",
+            "image": ""
+        },
+        {
+            "no": 21,
+            "name": "Gustav V",
+            "year_start": "1907",
+            "year_end": "1950",
+            "image": ""
+        },
+        {
+            "no": 22,
+            "name": "Gustav VI Adolf",
+            "year_start": "1950",
+            "year_end": "1973",
+            "image": ""
+        },
+        {
+            "no": 23,
+            "name": "Carl XVI Gustav",
+            "year_start": "1973",
+            "year_end": "2025",
+            "image": ""
+        }
+    ]
+}
