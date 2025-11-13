@@ -1,0 +1,160 @@
+:root {
+   --f-size: clamp(1rem, 25vw, 2rem);
+}
+/* resets & boilerplates */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img, iframe, video {
+    max-width: 100%;
+    
+    display: block;
+}
+
+html, body, main {
+    min-height: 100svh;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+    text-wrap-style: balance;
+} */
+
+p {
+    max-inline-size: 75ch;
+    text-wrap-style: pretty;
+    text-align: center;
+}
+
+/* overall layouts */
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: var(--f-size);
+    background-color: #131313;
+    color: #333333;
+}
+.wrapper {
+    min-width: 100svw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.hidden {
+    display: none;
+}
+
+.quiz_body {
+   
+    background-color: #fefefe;
+    border-radius: 5%;
+    box-shadow: 1px 1px 5px 4px black;
+    margin-inline: auto;
+    margin-top: 1rem;
+    padding-block: 1.5rem;
+    width: min(50rem, 90%);
+}
+
+
+
+.answer_display {
+    height: 100%;
+    border-radius: .25rem;
+    box-shadow: 0px 0px 4px 1px;
+    font-size: calc(var(--f-size) * .85);
+    width: min(100rem, 20vw);
+    height: 5rem;
+    padding: .5rem .2rem;
+}
+
+.incorrect {
+    background: rgba(247, 62, 62, 0.904);
+    color: #ffffff
+}
+
+.correct {
+    background: rgba(1, 176, 1, 0.767);
+}
+
+.question_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 2rem;
+}
+
+.answer_input {
+    font-size: calc(var(--f-size) * .85);
+    text-align: center;
+    width: min(100rem, 20vw);
+    height: 5rem;
+    background-color: #ffffff;
+    padding: 1.5rem .75rem;
+}
+
+.center_flex {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.show_correct {
+    margin-top: 2rem;
+    font-size: calc(var(--f-size) * .65);
+}
+
+.date_range {
+    gap: 1.5rem;
+}
+
+.question_img_box {
+    overflow: hidden;
+    background-color: silver;
+
+    border: 1rem solid silver;
+    width: 65%;
+    aspect-ratio: .9;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px 6px #565656;
+}
+
+
+.question_img {
+    
+    aspect-ratio: .9;
+
+    
+}
+
+.king_img {
+    object-fit: cover;
+}
+
+.gen_img {
+    object-fit: contain;
+}
+
+.start_button {
+    margin-top: 3rem;
+}
+
+
+.submit_button {
+    
+    margin-inline: auto;
+    color: #ffffff;
+    background-color: rgb(2, 135, 168);
+    font-size: calc(var(--f-size) * 1.1);
+    padding: .75rem 4.5rem;
+    border-radius: 100svw;
+}
+

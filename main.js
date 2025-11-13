@@ -17,7 +17,13 @@ const jsonObject = await fetchJsonData("question-data/data.json")
 const QUIZ = new quizObject(jsonObject)
 
 
-const quizBody = document.getElementById("quiz-body")
+const quizBody = document.getElementById("quiz_body")
+const practiceButton = QUIZ.elementMaker("button", ["submit_button", "start_button"], "practice_button")
+practiceButton.innerText = "Starta Quiz"
+practiceButton.addEventListener("click", (e) => {
+    quizBody.classList.add("quiz_body")
+    QUIZ.newRun()
+})
+quizBody.appendChild(practiceButton)
 
-quizBody.appendChild(QUIZ.generateHTML(QUIZ.questions.getRandom()))
 

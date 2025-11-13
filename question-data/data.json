@@ -5,7 +5,7 @@
             "name": "Gustav Vasa",
             "year_start": "1523",
             "year_end": "1560",
-            "image": ""
+            "image": "/question-data/ruler-imgs/g_vasa.jpg"
         },
         {
             "no": 2,
@@ -96,7 +96,7 @@
             "name": "Gustav III",
             "year_start": "1771",
             "year_end": "1792",
-            "image": ""
+            "image": "/question-data/ruler-imgs/g_III.jpg"
         },
         {
             "no": 15,
@@ -159,7 +159,7 @@
             "name": "Carl XVI Gustav",
             "year_start": "1973",
             "year_end": "2025",
-            "image": ""
+            "image": "/question-data/ruler-imgs/c_16_g.jpg"
         }
     ]
 }
