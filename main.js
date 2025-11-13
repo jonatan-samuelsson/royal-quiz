@@ -1,4 +1,4 @@
-import {quizObject} from "/question-data/questions.js"    
+import {quizObject} from "./question-data/questions.js"    
     
     async function fetchJsonData(json_path) {
     try {

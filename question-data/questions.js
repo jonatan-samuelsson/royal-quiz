@@ -49,7 +49,7 @@ export class quizObject {
     setupListOfRulersQuestions(rulers) {
 
         rulers.forEach(ruler => {
-            const image = "/question-data/ruler-imgs/" + ruler.no.toString() + ".jpg"
+            const image = "./question-data/ruler-imgs/" + ruler.no.toString() + ".jpg"
            
             this.questions.add(
                 `När regerade ${ruler.name}?`,
